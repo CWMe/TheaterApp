@@ -1,6 +1,8 @@
 package com.codewithme.theaterseating;
 
 import android.content.Intent;
+import android.support.v4.view.PagerAdapter;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -9,7 +11,6 @@ import android.widget.Button;
 import android.widget.GridView;
 import android.widget.Toast;
 
-import com.codewithme.theaterseating.venue.SeatingAvailabilityManager;
 import com.codewithme.theaterseating.venue.Venue;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -24,6 +25,8 @@ public class SeatSelectionActivity extends AppCompatActivity {
     private List<String> selectedSeats;
     private List<String> purchasedSeats = new ArrayList<>();
     private GridView gridView;
+    private PagerAdapter adapter;
+    private ViewPager pager;
 
 
     @Override

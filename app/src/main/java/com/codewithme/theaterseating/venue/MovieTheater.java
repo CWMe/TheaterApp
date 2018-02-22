@@ -1,5 +1,7 @@
 package com.codewithme.theaterseating.venue;
 
+import java.util.Calendar;
+
 public class MovieTheater extends Venue {
     private static final int GROUPING_SIZE = 2;
 
