@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "538701075233",
+    "firebase_url": "https://junk-shark.firebaseio.com",
+    "project_id": "junk-shark",
+    "storage_bucket": "junk-shark.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538701075233:android:c9cc6ddf2b5f88c5",
+        "android_client_info": {
+          "package_name": "com.codewithme.theaterseating"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538701075233-2grnb1qtski0pmp7n9m2eulcmj0s4dfb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs_JvzdlZEB-FNr1RlEVlngKs51bhxQO4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
