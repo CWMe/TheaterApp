@@ -1,18 +1,12 @@
 package com.codewithme.theaterseating;
 
 import android.content.Context;
-import android.provider.ContactsContract;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
-import android.widget.ImageView;
 
-import com.codewithme.theaterseating.venue.SeatingAvailabilityManager;
 import com.codewithme.theaterseating.venue.Venue;
-import com.google.firebase.database.DatabaseReference;
-
-import java.util.List;
 
 /**
  * Created by cdlee on 2/13/18.

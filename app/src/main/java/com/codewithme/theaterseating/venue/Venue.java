@@ -1,14 +1,5 @@
 package com.codewithme.theaterseating.venue;
 
-import com.codewithme.theaterseating.TheaterSelectionActivity;
-import com.codewithme.theaterseating.Transformable;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.GenericTypeIndicator;
-import com.google.firebase.database.ValueEventListener;
-
 import java.io.Serializable;
 import java.util.List;
 
